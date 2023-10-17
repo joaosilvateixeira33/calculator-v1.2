@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #3498db, #2980b9);
+}
+
+.calculator {
+  text-align: center;
+  border: 1px solid #005289;
+  padding: 20px;
+  width: 240px;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+#calculator__display {
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  border-radius: 10px;
+}
+
+button {
+  width: 48px;
+  height: 58px;
+  font-size: 20px;
+  margin: 2px;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(72, 72, 250);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:focus {
+  background-color: #005289;
+}
+
+#equalOp {
+  width: 215px;
+}
+
+.buttons__up {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.display__history {
+  background-color: #fff;
+  width: 256px;
+  height: 450px;
+  border-radius: 10px;
+  color: black;
+  margin-left: 20px;
+  display: none;
+}
+
+.display__history h2 {
+  text-align: center;
+}
+
+#history__button {
+  width: 50px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+#hide__History {
+  width: 40px;
+  height: 40px;
+}
+
+.button__up {
+  width: 50px;
+  height: 30px;
+}
+
+.buttons__up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

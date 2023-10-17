@@ -90,3 +90,9 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 480px) {
+  body {
+    flex-direction: column;
+  }
+}
